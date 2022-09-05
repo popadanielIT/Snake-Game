@@ -87,18 +87,3 @@ body{
     color: white;
     line-height: 50px;
 }
-#paused{
-    position: absolute;
-    font-size: 30px;
-    left: 470px;
-    top: 10px;
-    display: block;
-    cursor: pointer;
-    transition: ease 0.15s;
-}
-#paused:hover{
-    opacity: 0.6;
-}
-#paused:active{
-    color: rgb(122, 127, 124);
-}
