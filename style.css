@@ -1,0 +1,104 @@
+body{
+    background-color: rgb(47, 79, 79);
+    overflow-y: auto;
+    overflow-x: hidden;
+}
+#gameBoard{
+   border: 5px solid;
+   border-radius: 15px;
+   background-color: rgba(189, 194, 191, 1);
+}
+#gameContainer{
+    position: absolute;
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+    width: 510px;
+    height: 700px;
+}
+#scoreText{
+    font-family: "Permanent Marker", cursive;
+    font-size: 500%;
+    color: white;
+}
+#resetBtn{
+    position: absolute;
+    top: 451.4px;
+    left: 6em;
+    font-family: "Permanent Marker", cursive;
+    font-size: 22px;
+    width: 250px;
+    height: 50px;
+    border: 5px solid;
+    border-radius: 15px;
+    transition: ease 0.15s;
+    cursor: pointer;
+}
+#resetBtn:hover{
+    opacity: 0.8;
+}
+#resetBtn:active{
+    background-color: rgba(189, 194, 191, 1);
+}
+#p{
+    font-size: 30px;
+    color: white;
+    position: relative;
+    top: -176px;
+    left: 00px;
+}
+
+#startBtn{
+    font-family: "Permanent Marker", cursive;
+    background-color: transparent;
+    border: 0 solid;
+    color: black;
+    position: absolute;
+    text-align: center;
+    justify-content: center;
+    top: 180px;
+    left: 1em;
+    font-size: 100px;
+    cursor: pointer;
+}
+#scoreBord{
+    background-color: rgba(47, 79, 79, 0.7);
+    border: 4px solid;
+    width: 410px;
+    height: 345px;
+    border-radius: 15px;
+    position: absolute;
+    top: 95px;
+    left: 2.3em;
+    overflow: auto;
+}
+#input{
+    position: absolute;
+    top: 72px;
+    left: 7em;
+    width: 250px;
+    height: 40px;
+    border-radius: 25px;
+    border: 4px solid;
+}
+#scoreName{
+    font-size: 30px;
+    position: absolute;
+    color: white;
+    line-height: 50px;
+}
+#paused{
+    position: absolute;
+    font-size: 30px;
+    left: 470px;
+    top: 10px;
+    display: block;
+    cursor: pointer;
+    transition: ease 0.15s;
+}
+#paused:hover{
+    opacity: 0.6;
+}
+#paused:active{
+    color: rgb(122, 127, 124);
+}
