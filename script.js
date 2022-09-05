@@ -6,7 +6,6 @@ const startBtn = document.querySelector('#startBtn');
 const scoreBord = document.querySelector('#scoreBord');
 const inputText = document.querySelector('#input');
 const scoreTxt = document.querySelector('#scoreName');
-const pause = document.querySelector('#paused');
 const gameWidth = gameBoard.width;
 const gameHeight = gameBoard.height;
 const boardBackground = "rgba(189, 194, 191, 1)";
